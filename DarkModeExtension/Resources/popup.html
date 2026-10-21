@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="popup.css">
+    <script type="module" src="popup.js"></script>
+</head>
+<body>
+    <h1>Dusk</h1>
+
+    <label class="row">
+        <span>Enabled</span>
+        <input type="checkbox" id="enabled">
+    </label>
+
+    <label class="row" id="site-row" hidden>
+        <span>On <strong id="site-name"></strong></span>
+        <input type="checkbox" id="site-enabled">
+    </label>
+
+    <p class="note" id="native-dark-note" hidden>This site already has a dark theme, so it's left as is.</p>
+
+    <label class="column">
+        <span>Brightness <output id="brightness-value"></output></span>
+        <input type="range" id="brightness" min="50" max="100" step="5">
+    </label>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Dusk",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Forces a dark theme on every website you visit.",
+        "description": "Description of what the extension does."
+    }
+}
